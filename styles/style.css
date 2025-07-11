@@ -8,7 +8,7 @@
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  background-color: rgba(78, 71, 255, 0.01);
+  background-color: #b8c0fe22;
 }
 
 header {
@@ -17,7 +17,8 @@ header {
   background-size: cover;
   height: 698px;
   width: 100%;
-  background-color: rgba(78, 71, 255, 0.01);
+background-color: rgba(8, 0, 251, 0.023);
+  border-bottom: 1px dashed rgba(128, 128, 128, 0.278);
 }
 .HeroSection {
   width: 1200px;
@@ -98,3 +99,45 @@ main {
 .ActionSection-img img{
      border-radius: 24px;
 }
+
+
+/* ======================================================== */
+
+.stats-section {
+    background-color: #e8ebfd;
+    border: 1px dashed #aab8ff;
+    padding: 40px 60px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 800px;
+    margin: 80px auto;
+  }
+
+  .stats-section h2 {
+    font-size: 24px;
+    color: #1e1e1e;
+    margin-bottom: 30px;
+  }
+
+  .stats-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+
+  .stat-box {
+    min-width: 100px;
+  }
+
+  .stat-number {
+    font-size: 82px;
+    font-weight: bold;
+    color: #4c5bff;
+  }
+
+  .stat-label {
+    font-size: 14px;
+    color: #777;
+    margin-top: 5px;
+  }
