@@ -21,7 +21,7 @@ header {
   border-bottom: 1px dashed rgba(128, 128, 128, 0.278);
 }
 .HeroSection {
-  width: 1200px;
+  width: 1440px;
   margin: auto;
   padding: 0;
 }
@@ -73,7 +73,7 @@ header {
 /* MAin Sections */
 
 main {
-  width: 1200px;
+  width: 1440px;
   margin: auto;
 }
 .ActionSection {
@@ -105,7 +105,6 @@ main {
   padding: 40px 60px;
   border-radius: 10px;
   text-align: center;
-  max-width: 800px;
   margin: 80px auto;
 }
 
@@ -156,7 +155,6 @@ main {
 }
 
 .review-card {
-  
   background-color: #ffffff;
   border-radius: 10px;
   padding: 20px;
