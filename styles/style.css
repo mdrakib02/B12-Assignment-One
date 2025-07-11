@@ -17,7 +17,7 @@ header {
   background-size: cover;
   height: 698px;
   width: 100%;
-background-color: rgba(8, 0, 251, 0.023);
+  background-color: rgba(8, 0, 251, 0.023);
   border-bottom: 1px dashed rgba(128, 128, 128, 0.278);
 }
 .HeroSection {
@@ -75,69 +75,125 @@ background-color: rgba(8, 0, 251, 0.023);
 main {
   width: 1200px;
   margin: auto;
-  
 }
 .ActionSection {
-    display: flex;
-    justify-content: space-between;
-    margin: 80px 0px;
-    align-items: center;
-
+  display: flex;
+  justify-content: space-between;
+  margin: 80px 0px;
+  align-items: center;
 }
-.ActionSection h2{
-    font-size: 32px;
-    font-weight: 600;
+.ActionSection h2 {
+  font-size: 32px;
+  font-weight: 600;
 }
-.ActionSection p{
-    margin: 20px 0px;
-    font-size: 24px;
-    color: rgba(37, 36, 50, 0.5);
-    width: 517px;
-}
-
-
-.ActionSection-img img{
-     border-radius: 24px;
+.ActionSection p {
+  margin: 20px 0px;
+  font-size: 24px;
+  color: rgba(37, 36, 50, 0.5);
+  width: 517px;
 }
 
+.ActionSection-img img {
+  border-radius: 24px;
+}
 
 /* ======================================================== */
 
 .stats-section {
-    background-color: #e8ebfd;
-    border: 1px dashed #aab8ff;
-    padding: 40px 60px;
-    border-radius: 10px;
-    text-align: center;
-    max-width: 800px;
-    margin: 80px auto;
-  }
+  background-color: #e8ebfd;
+  border: 1px dashed #aab8ff;
+  padding: 40px 60px;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 800px;
+  margin: 80px auto;
+}
 
-  .stats-section h2 {
-    font-size: 24px;
-    color: #1e1e1e;
-    margin-bottom: 30px;
-  }
+.stats-section h2 {
+  font-size: 24px;
+  color: #1e1e1e;
+  margin-bottom: 30px;
+}
 
-  .stats-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 40px;
-  }
+.stats-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 40px;
+}
 
-  .stat-box {
-    min-width: 100px;
-  }
+.stat-box {
+  min-width: 100px;
+}
 
-  .stat-number {
-    font-size: 82px;
-    font-weight: bold;
-    color: #4c5bff;
-  }
+.stat-number {
+  font-size: 82px;
+  font-weight: bold;
+  color: #4c5bff;
+}
 
-  .stat-label {
-    font-size: 14px;
-    color: #777;
-    margin-top: 5px;
-  }
+.stat-label {
+  font-size: 14px;
+  color: #777;
+  margin-top: 5px;
+}
+
+/* -=============== Contact Sections ========= */
+
+.contact-section {
+  margin-bottom: 120px;
+  background-color: #f7f9ff;
+  padding: 36px 0px;
+}
+
+.container {
+  display: flex;
+  gap: 120px;
+  justify-content: space-between;
+  align-items: center;
+  background: #f7f9ff;
+}
+
+.contact-text {
+  width: 528px;
+  font-size: 44px;
+  font-weight: 700;
+  color: #000;
+}
+
+.contact-form {
+  flex: 1 1 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form label {
+  font-size: 14px;
+  color: #333;
+  font-weight: 500;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 14px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  background: white;
+}
+
+.contact-form button {
+  background-color: #4f46e5;
+  color: #fff;
+  border: none;
+  padding: 16px;
+  font-size: 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #4338ca;
+}
