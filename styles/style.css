@@ -1,5 +1,9 @@
 /* Theis is Styles sections */
-
+* {
+  margin: 0;
+  padding: 0;
+  
+}
 /* Font Family */
 .inter-font-family {
   font-family: "Inter", sans-serif;
@@ -7,11 +11,60 @@
   font-style: normal;
 }
 
-header{
-    background-image: url("../Assets/Hero-bg.png");
+header {
+  background-image: url("../Assets/Hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 698px;
+  width: 100%;
+  background-color: rgba(78, 71, 255, 0.01);
+}
+.HeroSection {
+  width: 1200px;
+  margin: auto;
+  padding: 0;
 }
 
-.menu-item{
-    display: flex;
-    justify-content: space-between;
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+
+.logo {
+  font-size: 45px;
+  font-weight: 900;
+  color: rgb(78, 71, 255);
+  list-style: none;
+}
+
+.primary-button{
+    font-size: 18px;
+    padding: 12px 18px;
+    background-color: rgb(78, 71, 255);
+    border-radius: 8px;
+    color: white;
+    list-style: none;
+    margin: auto 0px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    border: none;
+    text-align: center;
+}
+.primary-button:hover{
+    background-color: rgb(58, 51, 230);
+    transform: scale(1.05);        
+}
+.hero-content{
+    text-align: center;
+    margin: auto;
+}
+.header-text{
+    font-size: 64px;
+    font-weight: 600;
+    width: 900px;
+    margin: auto;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 32px;
 }
